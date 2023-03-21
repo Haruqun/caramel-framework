@@ -1,0 +1,77 @@
+body{
+    font-family: "fot-udkakugo-large-pr6n", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1 {
+    position: relative;
+	background: #ffd100;
+	padding: 1.3rem 1.8rem;
+	margin-bottom: 1.8rem;
+	font-size: 1.8rem;
+}
+
+h1:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid #ffd100;
+    width: 0;
+    height: 0;
+}
+
+h2 {
+	background: linear-gradient(transparent 70%, #a7d6ff 70%);
+	margin: 0 0 1.2rem;
+}
+
+
+
+.container-fluid.hero {
+	background-image: url('/img/header.jpg');
+	background-size: cover;
+	background-position: center;
+    color:#eaeaea;
+    font-family: "fot-udkakugo-large-pr6n", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-fluid.hero h1{
+    font-family: "fot-udkakugo-large-pr6n", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background: none;
+}
+
+.container-fluid.hero h1:after{
+    content: none;
+}
+
+
+.gray-bg {
+	background: #f6f6f6;
+}
+
+.gold-bg {
+    background: #333;
+    background-image: url('/img/gold-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#eaeaea;
+}
+
+
+
+.gold-bg h2{
+	background: linear-gradient(transparent 70%, #8b6d2c 70%);
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 2.4rem;
+}
